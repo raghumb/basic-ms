@@ -1,0 +1,9 @@
+
+
+endpoints:
+    enabled: true
+    sensitive: false
+    
+server:
+  port : 8085
+  

@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: basic-ms-service
+spec:
+  type: NodePort
+  selector:
+    app: basic-ms
+  ports:
+  - name: basic-ms-service
+    protocol: TCP
+    port: 8086
+    targetPort: 8085
